@@ -1,0 +1,1 @@
+exists (select 1 from maximo.locoper where ((locpriority=1) and (location=maximo.locations.location and siteid=maximo.locations.siteid)) and (type in ( ‘COURIER’ , ‘HOLDING’ , ‘LABOR’ , ‘OPERATING’ , ‘REPAIR’ , ‘SALVAGE’ , ‘VENDOR’ )) )
